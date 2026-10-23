@@ -224,7 +224,7 @@ const addWebviewSupport = (feature_id, feature) => {
       webview_support.ios === "partial") ||
     (webview_support.android === "partial" &&
       webview_support.ios === "unsupported") ||
-    (webview_support.android === "usupported" &&
+    (webview_support.android === "unsupported" &&
       webview_support.ios === "partial")
   ) {
     webview_support.all = "partial";
